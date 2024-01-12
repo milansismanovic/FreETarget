@@ -10,24 +10,25 @@
 - instant glue
 
 ### Bill Of Materials
-- 200g Filament for your 3D Printer
+- 100g Filament for your 3D Printer
 - 1 4mm x 400mm metal rod
 - 1 paper charging roller for printers: like https://www.aliexpress.com/item/4001350443434.html
 - 2 springs 30mm x 5mm: like https://www.aliexpress.com/item/1005005312536098.html?spm=a2g0o.order_list.order_list_main.101.13c6194def1vQR
 - 1 geared dc motor JGA25-370 12V, 1:60 gear ratio: like https://www.aliexpress.com/item/1005004762042393.html
 - 1 roll of target witness paper: like https://www.amazon.in/Black-Paper-Electronic-Scoring-Target/dp/B0BWFJ9MSM
 - 2 M5 20mm nuts and bolts for the paper charger
-- 2 M3 8mm bolts for the engine to holder mount
+- 2 M3 6mm bolts for the engine to holder frame
 - 10 wood screws to attach the paper holder and paper pull
 
 ### Build
 Print the 3d parts tbd add links to 3d model for each:
-- roll holder frame
-- roll holder roll
-- a pair upper and lower paper guide rod holders
-- paper pull frame
-- motor holder frame
-- motor coupler 
+- roll holder frame and roll [paperrollholder00.stl](3dmodels/witnesspaper/paperrollholder00.stl)
+- two pairs paper guide rod holders [witnesspaperguide00.stl](3dmodels/witnesspaper/witnesspaperguide00.stl)
+- paper pull frame [paperpullmount02.stl](3dmodels/witnesspaper/paperpullmount02.stl)
+- motor holder frame [motormountJGA2500.stl](3dmodels/witnesspaper/motormountJGA2500.stl)
+- motor coupler [coupler00.stl](3dmodels/witnesspaper/coupler00.stl)
+
+All the 3d models are in this file: [witnesspapersetup-allparts.3mf](3dmodels/witnesspaper/witnesspapersetup-allparts.3mf)
 
 Cut the 4mm rods like this: One piece of 120mm and two of 110mm length.
 
