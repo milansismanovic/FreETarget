@@ -31,15 +31,15 @@ Print the 3d parts tbd add links to 3d model for each:
 
 Cut the 4mm rods like this: One piece of 120mm and two of 110mm length.
 
-**paper roll holder:**
+**Paper roll holder:**
 Attach the roll holder above the target to the target box with 4 wood screws.
 Put the 120mm rod into the rollholder roll.
 Put the witness paper roll on the rollholder.
 
-**paper guide rods**
+**Paper guide rods:**
 Attach the 3d printer paper guide rod holder to the two 110mm rods and glue the paper guide rod holder to the FreETarget sensor frame.
 
-**paper pull frame:**
+**Paper pull frame:**
 Cut the paper charging roller for printers in the middle.
 
 Remove the rubber on the side where you cut it, so that the rubber that remains is 90mm wide. 
@@ -66,4 +66,5 @@ Put the motor paper roll charger into the hole of the paper pull frame.
 Attach the paper pull frame and the motor frame on the target box.
 
 ## Improvements
-Find a simple way to attach the rod for the roll holder, so it can't slip out. Glueing is not a good option as it adds friction.
+Find a simple way to attach the rod for the roll holder, so it can't slip out. Glueing is not a good 
+option as it adds friction. Maybe a cap that is slightly conic inside, so the rod doesn't move out.
