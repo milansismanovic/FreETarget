@@ -24,17 +24,18 @@ Next steps onece above runs:
 - add Bluetooth
 - add mobile client for Bluetooth
 Let me know if you are interested in the 3d frame and what you tink. 🙂
+![setup](20240114first-success.png)
 # Second Try 21.01.2024
-##Issues observed 21.01.2024
+## Issues observed 21.01.2024
 - running Freetarget all shots get registered - however one of them has a zero timer value - either North or East
 - North or East have both double the length of the cable
-##Log of actions
+## Log of actions
 - Tried changing the trigger voltage from 2.5V to 2.8V to 3.2V. - same results
 - calibrated all sensor to show the same voltage on the analog pin (see little calibration Arduino program below)
-##Next tries 
+## Next tries 
 - add cables to match to W and S to match N and E
 - find a way to verify the that the interrupts trigger with the expected micros() (Does the FreeTarget client have something of this sort?)
-##test report 
+## test report 
 ### Recorded Shots
 
 ```
@@ -669,7 +670,7 @@ Loop State: SET_MODE
 503.745240: Waiting...
 503.747410: Loop State: WAIT
 ```
-#Calibration of Sound Sensors Arduino Program
+# Calibration of Sound Sensors Arduino Program
 Code for Calibration to use the Arduino IDE Serial Plotter to support the setup
 ![Arduino IDE Serial Plotter](20240121sound-sensor-calibration3.2.png)
 ```
