@@ -733,3 +733,7 @@ void loop() {
 ```
   delay(200);  // Adjust delay as needed
 }
+# Test Run 28.01.2024
+Try to put one sensor to all Arduino Mega pins - one by one. 
+This checks if the arduino digital pins behave as expected. Then
+try each sensor like this.
