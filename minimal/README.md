@@ -737,3 +737,19 @@ void loop() {
 Try to put one sensor to all Arduino Mega pins - one by one. 
 This checks if the arduino digital pins behave as expected. Then
 try each sensor like this.
+
+# Next steps
+Check shooting distance from microphone to ensure that not the pistol, but the impact triggers the microphone.
+
+Tested setting each of the sensors to the digital pins of the Arduino one-by-one: Sensor N connects to pins for NESW of the Arduino. Then sensor E, S and W. The result is that they are all in the center. From this I conclude, that my bridge soldering is OK and it must be the sensors triggering unequally. Would you agree on my conclusion?
+So my next step is to replace the sensors and try with different ones. I will try to write a small Arduino sketch to verify the triggering of the sensors and if the time difference is within the expect range.
+
+M* St*Author
+Mit Humor yes, your soldering is OK then, but I assume the trigger level is not correct. When you test it, did you release the shots from a fair distance? Otherwise the mics might trigger on the noise from the gun and not from the impact of the pellet. Therefore trigger level setting is critical. It seems that the same mic boards from different vendors have different microphones. So there is no universal level to work with all of them. The freETarget Website has some useful info on how to set the trigger level. I used an oscilloscope to figure it out 😉
+
+Raj* Rav*Top Contributor
+Markus Stoeckli with oscilloscopes this going to be costly affair 😀
+
+M* St*Author
+Top Contributor
+Rajasekhar Ravuri yes, I agree 😃. But in my opinion everyone should have an oscilloscope around the house 😃. More serious, I think this can also be adjusted by following the strategy for adjusting the levels as described by the original authors. Use the serial monitor to get the raw output. Start with a level where nothing triggers. Fire from far away. Modify levels till all sensors trigger. Alternatively, we could also use the arduino software to automatically set the the trigger voltage. We would still have to adjust the potentiometer to provide an adequate amplification, but would then set the reference voltage of the 2nd comparator. This would require an additional wire to each mic board, cutting a trace, soldering the wire and some software changes. Should be doable, but I did not study this part of the code yet... help is welcome. 🙂
